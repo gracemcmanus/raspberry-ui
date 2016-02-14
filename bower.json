@@ -1,0 +1,22 @@
+{
+  "name": "raspberry-ui",
+  "authors": [
+    "Grace McManus"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "rasberry",
+    "pi"
+  ],
+  "homepage": "https://github.com/gracemcmanus/raspberry-ui",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}
