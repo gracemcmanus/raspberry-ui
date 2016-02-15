@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#container {
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#pin-board {
+  display: inline-block;
+}
+
+#pin-board .row {
+  float: left;
+  clear: both;
+  padding: 25px 0;
+}
+
+#pin-board .row:not(:last-child) {
+  padding-bottom: 0;
+}
+
+#pin-board .row > .label {
+  text-align: center;
+  float: left;
+  width: 95px;
+  line-height: 50px;
+}
+
+#pin-board .row > .label:first-child {
+  margin-right: 10px;
+}
+
+#pin-board .row > .label:last-child {
+  margin-left: 10px;
+}
+
+#pin-board .row .pin {
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  float: left;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50px;
+}
+
+#pin-board .row .pin + .pin {
+  margin-left: 10px;
+}
+
+#pin-board .row .pin.active {
+  box-shadow: 0 0 0px 3px #111;
+}
+
+#pin-board .row .pin.disabled {
+  cursor: default;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.pin-3V3 {
+  background-color: blueviolet;
+}
+
+.pin-5V {
+  background-color: crimson;
+}
+
+.pin-GROUND {
+  background-color: orange;
+}
+
+[class*="pin-GPIO"] {
+  background-color: lightseagreen;
+}
+
+.pin-GPIO-0,
+.pin-GPIO-1
+{
+  background-color: dodgerblue;
+}

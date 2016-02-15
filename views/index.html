@@ -1,12 +1,26 @@
 <!DOCTYPE HTML>
 <html>
   <head>
+    <meta name="viewport" content="
+        width=device-width,
+        initial-scale=1,
+        minimum-scale=1.0,
+        maximum-scale=1.0,
+        user-scalable=no"
+    >
     <title><%= title %></title>
-    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/lodash/dist/lodash.min.js"></script>
+    <script src="/bower_components/socket.io/index.js"></script>
+    <script src="/bower_components/bluebird/js/browser/bluebird.min.js"></script>
+    <script src="/js/raspberry-ui.js"></script>
+    <script src="/js/pin.js"></script>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <div id="container">
+      <img id="loading" src="/images/loading.gif">
+      <div id="pin-board"></div>
+    </div>
   </body>
 </html>
