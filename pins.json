@@ -1,0 +1,322 @@
+[
+	{
+		"physical": 1,
+		"name": "3.3V",
+		"wpi": null,
+		"bcm": null,
+		"mode": null,
+		"value": null
+	},
+	{
+		"physical": 2,
+		"name": "5V",
+		"wpi": null,
+		"bcm": null,
+		"mode": null,
+		"value": null
+	},
+	{
+		"physical": 3,
+		"name": "SDA.1",
+		"wpi": 8,
+		"bcm": 2,
+		"mode": "IN",
+		"value": 1
+	},
+	{
+		"physical": 4,
+		"name": "5V",
+		"wpi": null,
+		"bcm": null,
+		"mode": null,
+		"value": null
+	},
+	{
+		"physical": 5,
+		"name": "SCL.1",
+		"wpi": 9,
+		"bcm": 3,
+		"mode": "IN",
+		"value": 1
+	},
+	{
+		"physical": 6,
+		"name": "GROUND",
+		"wpi": null,
+		"bcm": null,
+		"mode": null,
+		"value": null
+	},
+	{
+		"physical": 7,
+		"name": "GPIO.7",
+		"wpi": 7,
+		"bcm": 4,
+		"mode": "IN",
+		"value": 1
+	},
+	{
+		"physical": 8,
+		"name": "TXD",
+		"wpi": 15,
+		"bcm": 14,
+		"mode": "IN",
+		"value": 0
+	},
+	{
+		"physical": 9,
+		"name": "GROUND",
+		"wpi": null,
+		"bcm": null,
+		"mode": null,
+		"value": null
+	},
+	{
+		"physical": 10,
+		"name": "RXD",
+		"wpi": 16,
+		"bcm": 15,
+		"mode": "IN",
+		"value": 1
+	},
+	{
+		"physical": 11,
+		"name": "GPIO.0",
+		"wpi": 0,
+		"bcm": 17,
+		"mode": "IN",
+		"value": 0
+	},
+	{
+		"physical": 12,
+		"name": "GPIO.1",
+		"wpi": 1,
+		"bcm": 18,
+		"mode": "IN",
+		"value": 0
+	},
+	{
+		"physical": 13,
+		"name": "GPIO.2",
+		"wpi": 2,
+		"bcm": 27,
+		"mode": "IN",
+		"value": 0
+	},
+	{
+		"physical": 14,
+		"name": "GROUND",
+		"wpi": null,
+		"bcm": null,
+		"mode": null,
+		"value": null
+	},
+	{
+		"physical": 15,
+		"name": "GPIO.3",
+		"wpi": 3,
+		"bcm": 22,
+		"mode": "IN",
+		"value": 0
+	},
+	{
+		"physical": 16,
+		"name": "GPIO.4",
+		"wpi": 4,
+		"bcm": 23,
+		"mode": "IN",
+		"value": 0
+	},
+	{
+		"physical": 17,
+		"name": "3.3V",
+		"wpi": null,
+		"bcm": null,
+		"mode": null,
+		"value": null
+	},
+	{
+		"physical": 18,
+		"name": "GPIO.5",
+		"wpi": 5,
+		"bcm": 24,
+		"mode": "IN",
+		"value": 0
+	},
+	{
+		"physical": 19,
+		"name": "MOSI",
+		"wpi": 12,
+		"bcm": 10,
+		"mode": "IN",
+		"value": 0
+	},
+	{
+		"physical": 20,
+		"name": "GROUND",
+		"wpi": null,
+		"bcm": null,
+		"mode": null,
+		"value": null
+	},
+	{
+		"physical": 21,
+		"name": "MISO",
+		"wpi": 13,
+		"bcm": 9,
+		"mode": "IN",
+		"value": 0
+	},
+	{
+		"physical": 22,
+		"name": "GPIO.6",
+		"wpi": 6,
+		"bcm": 25,
+		"mode": "IN",
+		"value": 0
+	},
+	{
+		"physical": 23,
+		"name": "SCLK",
+		"wpi": 14,
+		"bcm": 11,
+		"mode": "IN",
+		"value": 0
+	},
+	{
+		"physical": 24,
+		"name": "CE0",
+		"wpi": 10,
+		"bcm": 8,
+		"mode": "IN",
+		"value": 1
+	},
+	{
+		"physical": 25,
+		"name": "GROUND",
+		"wpi": null,
+		"bcm": null,
+		"mode": null,
+		"value": null
+	},
+	{
+		"physical": 26,
+		"name": "CE1",
+		"wpi": 11,
+		"bcm": 7,
+		"mode": "IN",
+		"value": 1
+	},
+	{
+		"physical": 27,
+		"name": "SDA.0",
+		"wpi": 30,
+		"bcm": 0,
+		"mode": "IN",
+		"value": 1
+	},
+	{
+		"physical": 28,
+		"name": "SCL.0",
+		"wpi": 31,
+		"bcm": 1,
+		"mode": "IN",
+		"value": 1
+	},
+	{
+		"physical": 29,
+		"name": "GPIO.21",
+		"wpi": 21,
+		"bcm": 5,
+		"mode": "IN",
+		"value": 1
+	},
+	{
+		"physical": 30,
+		"name": "GROUND",
+		"wpi": null,
+		"bcm": null,
+		"mode": null,
+		"value": null
+	},
+	{
+		"physical": 31,
+		"name": "GPIO.22",
+		"wpi": 22,
+		"bcm": 6,
+		"mode": "IN",
+		"value": 1
+	},
+	{
+		"physical": 32,
+		"name": "GPIO.26",
+		"wpi": 26,
+		"bcm": 12,
+		"mode": "IN",
+		"value": 0
+	},
+	{
+		"physical": 33,
+		"name": "GPIO.23",
+		"wpi": 23,
+		"bcm": 13,
+		"mode": "IN",
+		"value": 0
+	},
+	{
+		"physical": 34,
+		"name": "GROUND",
+		"wpi": null,
+		"bcm": null,
+		"mode": null,
+		"value": null
+	},
+	{
+		"physical": 35,
+		"name": "GPIO.24",
+		"wpi": 24,
+		"bcm": 19,
+		"mode": "IN",
+		"value": 0
+	},
+	{
+		"physical": 36,
+		"name": "GPIO.27",
+		"wpi": 27,
+		"bcm": 16,
+		"mode": "IN",
+		"value": 0
+	},
+	{
+		"physical": 37,
+		"name": "GPIO.25",
+		"wpi": 25,
+		"bcm": 26,
+		"mode": "IN",
+		"value": 0
+	},
+	{
+		"physical": 38,
+		"name": "GPIO.28",
+		"wpi": 28,
+		"bcm": 20,
+		"mode": "IN",
+		"value": 0
+	},
+	{
+		"physical": 39,
+		"name": "GROUND",
+		"wpi": null,
+		"bcm": null,
+		"mode": null,
+		"value": null
+	},
+	{
+		"physical": 40,
+		"name": "GPIO.29",
+		"wpi": 29,
+		"bcm": 21,
+		"mode": "IN",
+		"value": 0
+	}
+]

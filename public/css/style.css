@@ -44,7 +44,7 @@ a {
   margin-left: 10px;
 }
 
-#pin-board .row .pin {
+.pin {
   cursor: pointer;
   text-align: center;
   color: #fff;
@@ -53,40 +53,35 @@ a {
   height: 50px;
   line-height: 50px;
   border-radius: 50px;
+  background-color: gray;
 }
 
-#pin-board .row .pin + .pin {
+.pin + .pin {
   margin-left: 10px;
 }
 
-#pin-board .row .pin.active {
+.pin.active {
   box-shadow: 0 0 0px 3px #111;
 }
 
-#pin-board .row .pin.disabled {
+.pin.disabled {
   cursor: default;
   opacity: 0.4;
   pointer-events: none;
 }
 
-.pin-3V3 {
-  background-color: blueviolet;
+.pin[class*="pin-3.3V"] {
+  background-color: dodgerblue;
 }
 
-.pin-5V {
+.pin[class*="pin-5V"] {
   background-color: crimson;
 }
 
-.pin-GROUND {
+.pin[class*="GROUND"] {
   background-color: orange;
 }
 
 [class*="pin-GPIO"] {
   background-color: lightseagreen;
-}
-
-.pin-GPIO-0,
-.pin-GPIO-1
-{
-  background-color: dodgerblue;
 }
