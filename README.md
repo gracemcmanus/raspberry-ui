@@ -6,3 +6,8 @@
 
 ## usage
 > This is where you put usage instructions for your project.
+```shell
+npm start # start production
+npm stop # stop production
+npm run debug # development
+```

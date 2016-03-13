@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "A simple web UI for pi-gpio.",
   "scripts": {
-    "start": "supervisor --ignore ./public app.js",
+    "start": "forever start app.js",
+    "stop": "forever stopall",
+    "debug": "supervisor --ignore ./public app.js",
     "postinstall": "bower install"
   },
   "dependencies": {

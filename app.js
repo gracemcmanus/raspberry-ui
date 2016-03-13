@@ -26,6 +26,8 @@ cp.execSync('python ./cleanup.py');
 app.set('views', path.join(__dirname, 'views'));
 app.engine('html', ejs.renderFile);
 app.set('view engine', 'html');
+
+// route setup
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res, next) => {
@@ -36,6 +38,7 @@ app.get('/pins', (req, res, next) => {
 	res.json(pio.pins);
 });
 
+// socket setup
 io.on('connection', (socket) => {
 	socket.on('change', (msg) => {
 		pio.mode(msg.wpi, 'out')
